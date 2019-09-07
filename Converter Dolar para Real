@@ -1,0 +1,16 @@
+Algoritmo "Converter Dolar para Real"
+
+var
+
+r, c, qtd_dolar : real
+
+inicio
+
+escreval("Digite a sua quantidade de Dolares e pressione: ")
+leia (qtd_dolar)
+escreval("Digite a cotação do Dolar: ")
+leia (c)
+r <- qtd_dolar * c
+escreva ("A conversão do Dolar para Real é: R$", r)
+
+fimalgoritmo
