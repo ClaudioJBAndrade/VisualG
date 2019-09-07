@@ -1,0 +1,10 @@
+algoritmo "dobro"
+var
+num, dobro : inteiro
+inicio
+// Seção de Comandos
+escreva ("Digite o número: ")
+leia(num)
+dobro <- 2 * num
+escreva ("O dobro é: ", dobro)
+fimalgoritmo
